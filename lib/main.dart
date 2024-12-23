@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         title: 'ola_mundo',
         theme: ThemeData(
           useMaterial3: true,
-          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepOrange),
+          colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 14, 211, 218)),
         ),
         home: MyHomePage(),
       ),
